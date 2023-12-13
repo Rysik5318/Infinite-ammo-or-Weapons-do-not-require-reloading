@@ -1,0 +1,13 @@
+{
+	"name" : "Infinite ammoWeapons do not require reloading",
+	"description" : "You don't need to reload",
+	"author" : "Rysik5318",
+	"contact" : "Rysik5318#7967",
+
+	"hooks" : [
+		{ 	
+			"hook_id" : "lib/units/weapons/raycastweaponbase",
+			"script_path" : "code.lua"
+		}
+	]
+}
